@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    text-align: center;
+}
+
+.male{
+    padding: .8em .8em;
+    color: white;
+    border-radius: 3px;
+    background-color: dodgerblue;
+}
+
+.female{
+    padding: .8em .8em;
+    color: white;
+    border-radius: 3px;
+    background-color: palevioletred;
+}
+
+#app{
+    max-width: 350px;
+    margin: 5em auto;
+}
+
+#app-data{
+    display: grid;
+    row-gap: .5em;
+    justify-content: space-between;
+    align-items: center;
+}

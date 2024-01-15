@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./app.css">
+    <title>VueJs | cdn</title>
+</head>
+<body>
+    <div id="app">
+        <div id="app-data">
+            <img v-bind:src="picture" :alt="`${first_name} ${last_name}`" style="display: block; margin: 0 auto;" />
+            <h2>{{first_name}} {{last_name}}</h2>
+            <h3 style="font-weight: 500;">Email: {{ email }}</h3>
+            <button v-on:click="getUser()" :class="gender">Some button</button>
+        </div>
+    </div>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
